@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:i='urn:import:com.google.gwt.widgetideas.client'
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:ui:com.google.gwt.uibinder UiBinder.xsd">
+	<!--
+		xsi:schemaLocation="urn:ui:com.google.gwt.uibinder
+		jar:file:///home/laaglu/.m2/repository/com/google/gwt/gwt-user/2.0.0-trunk/gwt-user-2.0.0-trunk.jar!/com.google.gwt.uibinder.resources.UiBinder.xsd"
+	-->
+	<g:HorizontalPanel>
+		<g:VerticalPanel>
+			<g:Label text="Horizontal slider:" />
+			<i:HSliderBar />
+		</g:VerticalPanel>
+		<g:VerticalPanel>
+			<g:Label text="Vertical slider:" />
+			<i:VSliderBar />
+		</g:VerticalPanel>
+	</g:HorizontalPanel>
+</ui:UiBinder>
