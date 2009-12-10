@@ -5,6 +5,7 @@
 	<artifactId>gwt-incubator-slider-demo</artifactId>
 	<version>0.0.1</version>
 	<packaging>war</packaging>
+	<name>gwt-incubator-slider-demo</name>
 	<dependencies>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
@@ -72,6 +73,7 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<finalName>gwt-incubator-slider-demo</finalName>
 	</build>
 	<reporting>
 		<plugins>
