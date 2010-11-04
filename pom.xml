@@ -3,30 +3,56 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vectomatic</groupId>
 	<artifactId>gwt-incubator-slider-demo</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>gwt-incubator-slider-demo</name>
+	<description>A GWT to demonstrate horizontal and vertical sliders</description>
+	<url>http://www.vectomatic.org/gwt-incubator-slider-demo</url>
+	<licenses>
+		<license>
+			<name>GPLv3</name>
+			<url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+		</license>
+	</licenses>
+	<scm>
+		<url>http://code.google.com/p/vectomatic/source/browse/#svn/gwt/gwt-incubator-slider-demo/trunk</url>
+		<connection>scm:svn:http://vectomatic.googlecode.com/svn/gwt/gwt-incubator-slider-demo/trunk</connection>
+		<developerConnection>scm:svn:file:///home/laaglu/svn/laaglu-svn/gwt/gwt-incubator-slider-demo/trunk</developerConnection>
+	</scm>
+	<developers>
+		<developer>
+			<id>laaglu</id>
+			<name>Lukas Laag</name>
+			<email>laaglu@gmail.com</email>
+			<url>http://www.vectomatic.org</url>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>1</timezone>
+		</developer>
+	</developers>
 	<dependencies>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-user</artifactId>
-			<version>2.0.0-trunk</version>
+			<version>2.1.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-servlet</artifactId>
-			<version>2.0.0-trunk</version>
+			<version>2.1.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google</groupId>
 			<artifactId>gwt-incubator-slider</artifactId>
-			<version>0.1</version>
+			<version>0.1.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<properties>
-		<google.webtoolkit.home>/home/laaglu/gwt/trunk/build/staging/gwt-0.0.0</google.webtoolkit.home>
+		<google.webtoolkit.home>/home/laaglu/gwt/2.1.0</google.webtoolkit.home>
 	</properties>
 	
 	<build>
