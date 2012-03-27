@@ -10,7 +10,7 @@
 	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>gwt-incubator-slider-demo</name>
-	<description>A GWT to demonstrate horizontal and vertical sliders</description>
+	<description>A GWT app to demonstrate horizontal and vertical sliders</description>
 	<url>http://www.vectomatic.org/gwt-incubator-slider-demo</url>
 	<licenses>
 		<license>
