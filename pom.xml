@@ -6,7 +6,7 @@
 		<version>0.5</version>
 	</parent>
 	<artifactId>gwt-incubator-slider-demo</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.5</version>
 	<packaging>war</packaging>
 	<name>gwt-incubator-slider-demo</name>
 	<description>A GWT app to demonstrate horizontal and vertical sliders</description>
@@ -21,7 +21,8 @@
 		<url>scm:git:git@github.com:laaglu/gwt-incubator-slider-demo.git</url>
 		<connection>scm:git:git@github.com:laaglu/gwt-incubator-slider-demo.git</connection>
 		<developerConnection>scm:git:git@github.com:laaglu/gwt-incubator-slider-demo.git</developerConnection>
-	</scm>
+	  <tag>0.0.5</tag>
+  </scm>
 	<dependencies>
 		<dependency>
 			<groupId>com.google</groupId>
